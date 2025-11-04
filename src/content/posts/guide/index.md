@@ -1,11 +1,12 @@
 ---
 title: Lepustimidus Blog
 published: 2025-11-04
-description: "How to use this blog template."
+description: "I was within and without."
 image: "./image.png"
 tags: ["Lepustimidus", "Blogging"]
 category: Blogging
 draft: false
+sticky: true
 ---
 
 > Cover image source: [Source](./image.png)
