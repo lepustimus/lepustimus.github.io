@@ -1,6 +1,6 @@
 ---
 title: Lepustimidus's blog
-published: 2025-11-04
+published: 3000-11-04
 description: "I was within and without."
 image: "./image.png"
 tags: ["Lepustimidus", "Blogging"]
