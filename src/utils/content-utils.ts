@@ -4,30 +4,12 @@ import { i18n } from "@i18n/translation";
 import { getCategoryUrl } from "@utils/url-utils.ts";
 
 // // Retrieve posts and sort them by publication date
-// async function getRawSortedPosts() {
-// 	const allBlogPosts = await getCollection("posts", ({ data }) => {
-// 		return import.meta.env.PROD ? data.draft !== true : true;
-// 	});
-
-// 	const sorted = allBlogPosts.sort((a, b) => {
-// 		const dateA = new Date(a.data.published);
-// 		const dateB = new Date(b.data.published);
-// 		return dateA > dateB ? -1 : 1;
-// 	});
-// 	return sorted;
-// }
-
 async function getRawSortedPosts() {
 	const allBlogPosts = await getCollection("posts", ({ data }) => {
 		return import.meta.env.PROD ? data.draft !== true : true;
 	});
 
 	const sorted = allBlogPosts.sort((a, b) => {
-		// 优先比较置顶状态
-		if (a.data.sticky && !b.data.sticky) return -1;
-		if (!a.data.sticky && b.data.sticky) return 1;
-
-		// 再按发布日期排序
 		const dateA = new Date(a.data.published);
 		const dateB = new Date(b.data.published);
 		return dateA > dateB ? -1 : 1;
