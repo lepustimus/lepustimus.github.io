@@ -1,5 +1,5 @@
 ---
-title: Lepustimidus Blog
+title: Lepustimidus's blog
 published: 2025-11-04
 description: "I was within and without."
 image: "./image.png"
