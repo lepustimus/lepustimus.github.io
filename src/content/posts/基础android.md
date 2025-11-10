@@ -72,12 +72,7 @@ Java.perform(function (){
 - objection注入：
 ![alt text](image-125.png)
 
-- 启动MainActivity2：
-![alt text](image-126.png)
-启动之后就直接来到了MainActivity2页面：
-![alt text](image-127.png)
-
 - 启动NextContent：
 ![alt text](image-128.png)
-同理直接来到了NextContent页面：
+直接来到了NextContent页面：
 ![alt text](image-129.png)
