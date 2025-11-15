@@ -4,7 +4,7 @@ published: 2025-11-12
 description: ''
 image: ''
 tags: []
-category: 'CTF_Mobile'
+category: 'CTF-Mobile'
 draft: false 
 lang: ''
 ---
