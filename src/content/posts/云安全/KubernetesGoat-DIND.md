@@ -9,7 +9,7 @@ draft: false
 lang: ''
 ---
 
-# 1、原理：
+# 1、原理
 - 在 Docker 的实际使用中，存在在容器内操作 Docker的核心需求（如 CI/CD 流水线镜像构建），为满足该需求衍生出两种实现方案：DOOD 容器、DIND 容器，二者的实现原理、安全风险及混合配置问题如下：
   - DOOD 容器（Docker-outside-of-Docker）：
   将宿主机的 Docker 通信套接字 /var/run/docker.sock 挂载到容器内部。
@@ -24,7 +24,7 @@ lang: ''
   该环境会启动专属的 dockerd 进程，用于管理容器内的所有 Docker 操作（如构建镜像、启动子容器），而容器内的 dockerd 同样会通过自身的 containerd.sock 调用内置的 containerd。由于容器内的 dockerd 需要执行创建 cgroup、挂载文件系统等内核级高权限操作，DIND 容器必须以 --privileged（特权模式）启动，这也导致了一个天然的安全问题：特权模式会让整个 DIND 容器突破 Linux 内核的 namespace 隔离，容器内的任意进程均可直接操作宿主机资源（例如执行 mount /dev/sda1 /host，将宿主机硬盘挂载到容器内，实现对宿主机文件系统的读写）。
   若 DIND 容器存在配置不当（如额外将宿主机的 docker.sock 或 containerd.sock 挂载到容器内），则会叠加 DOOD 的风险：挂载 docker.sock 可直接操作宿主机 Docker 环境，挂载 containerd.sock 则可绕过 dockerd 直接操控底层 containerd，实现对宿主机所有容器的生命周期管理
 
-# 2、实验：
+# 2、实验
 - 访问漏洞对应端口：
 ![alt text](image-17.png)
 ![alt text](image-18.png)
@@ -68,7 +68,7 @@ lang: ''
     ; cd tmp; ls -ahl
     ```
     ![alt text](image-24.png)
-    
+
 - 通过crictl查看容器运行时信息：
     ```bash
     ; /tmp/crictl -r unix:///custom/containerd/containerd.sock info

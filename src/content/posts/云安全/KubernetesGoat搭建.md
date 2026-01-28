@@ -11,13 +11,13 @@ lang: ''
 
 > 参考文章：https://mp.weixin.qq.com/s/3jY1AmTCfMwocf6nD2iSzw
 
-# 1、起因：
+# 1、起因
 - 因为主包在搭建该靶场时踩了好多坑，所以在此记录一下最终成功的搭建过程，希望对大家有所帮助
 
-# 2、介绍：
+# 2、介绍
 - KubernetesGoat是一个云原生漏洞靶场
 
-# 3、搭建过程：
+# 3、搭建过程
 - 准备一只Ubuntu：
     ![alt text](image.png)
 
