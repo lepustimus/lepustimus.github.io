@@ -9,6 +9,4 @@ draft: false
 sticky: true
 ---
 
-> Cover image source: [Source](./image.png)
-
-This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
+``I was within and without.``
