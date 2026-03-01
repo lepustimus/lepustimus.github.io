@@ -3,8 +3,8 @@ title: pwnable.kr-collision
 published: 2026-02-07
 description: ''
 image: ''
-tags: []
-category: 'CTF-Pwn'
+tags: [Pwn]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

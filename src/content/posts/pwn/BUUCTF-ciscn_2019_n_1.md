@@ -3,8 +3,8 @@ title: BUUCTF-ciscn_2019_n_1
 published: 2026-02-11
 description: ''
 image: ''
-tags: []
-category: 'CTF-Pwn'
+tags: [Pwn]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

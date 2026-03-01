@@ -3,8 +3,8 @@ title: BJDCTF 2020 babystack
 published: 2026-02-26
 description: ''
 image: ''
-tags: [ret2text]
-category: 'CTF-Pwn'
+tags: [Pwn, ret2text]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

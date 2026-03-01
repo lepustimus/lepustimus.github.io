@@ -3,8 +3,8 @@ title: pwnable.kr-bof
 published: 2026-02-08
 description: ''
 image: ''
-tags: []
-category: 'CTF-Pwn'
+tags: [Pwn]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

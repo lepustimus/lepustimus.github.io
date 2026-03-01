@@ -3,8 +3,8 @@ title: 攻防世界 | ill-intentions
 published: 2025-11-15
 description: ''
 image: ''
-tags: []
-category: 'CTF-Mobile'
+tags: [Mobile]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

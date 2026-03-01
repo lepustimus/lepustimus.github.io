@@ -3,7 +3,7 @@ title: Ctfplus ret2libc
 published: 2026-03-01
 description: ''
 image: ''
-tags: [pwn, ret2libc]
+tags: [Pwn, ret2libc]
 category: 'CTF'
 draft: false 
 lang: ''
