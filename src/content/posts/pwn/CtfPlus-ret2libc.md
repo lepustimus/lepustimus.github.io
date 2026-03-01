@@ -1,5 +1,5 @@
 ---
-title: Ctfplus ret2libc
+title: Ctfplus | ret2libc
 published: 2026-03-01
 description: ''
 image: ''
