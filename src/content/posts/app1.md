@@ -3,8 +3,8 @@ title: 攻防世界 | app1
 published: 2025-11-12
 description: ''
 image: ''
-tags: []
-category: 'CTF-Mobile'
+tags: [Mobile]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

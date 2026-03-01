@@ -3,8 +3,8 @@ title: 攻防世界 | 基础android
 published: 2025-11-09
 description: ''
 image: ''
-tags: [frida, CTF, Objection, jadx]
-category: 'CTF-Mobile'
+tags: [Mobile, frida, Objection, jadx]
+category: 'CTF'
 draft: false 
 lang: ''
 ---

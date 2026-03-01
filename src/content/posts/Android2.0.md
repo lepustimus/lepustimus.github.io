@@ -3,8 +3,8 @@ title: 攻防世界 | Android2.0
 published: 2025-11-10
 description: ''
 image: ''
-tags: [jadx]
-category: 'CTF-Mobile'
+tags: [Mobile, jadx]
+category: 'CTF'
 draft: false 
 lang: ''
 ---
